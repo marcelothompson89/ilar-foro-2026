@@ -64,7 +64,7 @@
 
       <nav class="nav" id="navMenu" aria-label="Navegación principal">
         <a href="#agenda">Agenda</a>
-        <a href="#paises">Países</a>
+        <a href="#ponentes">Ponentes</a>
         <a href="#inscripcion">Inscripción</a>
         <a href="#sede">Sede</a>
         <a href="#informacion">Información</a>
@@ -172,26 +172,185 @@
     </div>
   </section>
 
-  <!-- ====================== PAÍSES ====================== -->
-  <section class="section" id="paises">
+  <!-- ====================== PONENTES ====================== -->
+  <section class="section" id="ponentes">
     <div class="container">
       <div class="section-head reveal">
-        <p class="eyebrow">Participación regional</p>
-        <h2 class="section-title">Países confirmados</h2>
-        <p class="lead-sm">Una conversación verdaderamente regional e internacional sobre el futuro del autocuidado.</p>
+        <p class="eyebrow">Voces del foro</p>
+        <h2 class="section-title">Ponentes</h2>
+        <p class="lead-sm">Autoridades regulatorias, expertos y líderes de la región que impulsan el futuro del autocuidado.</p>
       </div>
 
-      <ul class="country-grid reveal">
-        <li class="country-chip"><img class="flag-img" src="assets/flags/br.svg" alt="Bandera de Brasil" loading="lazy" /><span>Brasil</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/co.svg" alt="Bandera de Colombia" loading="lazy" /><span>Colombia</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/ec.svg" alt="Bandera de Ecuador" loading="lazy" /><span>Ecuador</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/sv.svg" alt="Bandera de El Salvador" loading="lazy" /><span>El Salvador</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/gt.svg" alt="Bandera de Guatemala" loading="lazy" /><span>Guatemala</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/do.svg" alt="Bandera de República Dominicana" loading="lazy" /><span>República Dominicana</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/jp.svg" alt="Bandera de Japón" loading="lazy" /><span>Japón</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/hn.svg" alt="Bandera de Honduras" loading="lazy" /><span>Honduras</span></li>
-        <li class="country-chip"><img class="flag-img" src="assets/flags/pe.svg" alt="Bandera de Perú" loading="lazy" /><span>Perú</span></li>
-      </ul>
+      <div class="speakers reveal">
+        <button class="spk-nav spk-prev" type="button" aria-label="Ponentes anteriores">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+
+        <ul class="spk-track" id="spkTrack">
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/daniela-marreco.jpeg" alt="Daniela Marreco Cerqueira" loading="lazy" style="object-position:100% 30%" /></div>
+            <h3 class="spk-name">Daniela Marreco Cerqueira</h3>
+            <p class="spk-role">Diretora da 2ª Diretoria da Anvisa · Brasil</p>
+            <div class="spk-bio">
+              <p>Servidora de carreira da Agência Nacional de Vigilância Sanitária (ANVISA), Daniela exerce o cargo de especialista em regulação e vigilância sanitária desde 2006. Já atuou em diversas áreas da Agência, como a Gerência-Geral de Medicamentos, onde foi Gerente-Geral. Foi, ainda, assessora da área de autorização e registros sanitários e Gerente de produtos biológicos. Também atuou como Secretária Executiva da Câmara de Regulação do Mercado de Medicamentos (CMED) e como Diretora Adjunta.</p>
+              <p>É mestre e doutora em Biologia Molecular pela Universidade de Brasília (UnB) e tem especialização em Saúde Coletiva pela Fundação Oswaldo Cruz.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/daniel-sanchez.png" alt="Dr. Daniel Antonio Sánchez Porcel" loading="lazy" /></div>
+            <h3 class="spk-name">Dr. Daniel Antonio Sánchez Porcel</h3>
+            <p class="spk-role">Director Ejecutivo · ARCSA, Ecuador</p>
+            <div class="spk-bio">
+              <p>Médico con experiencia formativa en salud pública y gestión hospitalaria, capacidades que lo han llevado a servir y dirigir en varias casas de salud del país, como el Hospital de Infectología “Dr. José Daniel Rodríguez” y el Hospital de Especialidades.</p>
+              <p>Además, ha sido Coordinador del Ministerio de Salud Pública en sus Zonales 5 y 8, donde ha ejecutado de manera capaz la planificación del MSP en territorio y las estrategias en salud requeridas en cada sector.</p>
+              <p>Así también fue Coordinador General Técnico de Vigilancia y Control Posterior en Arcsa, y desde el 6 de diciembre de 2023 es el Director Ejecutivo de la institución.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/marcos-balaguer.jpeg" alt="Lic. Marcos Miguel Balaguer Jerez" loading="lazy" /></div>
+            <h3 class="spk-name">Lic. Marcos Miguel Balaguer Jerez</h3>
+            <p class="spk-role">Director General · DIGEMAPS, R. Dominicana</p>
+            <div class="spk-bio">
+              <p>Marcos Balaguer Jerez es el Director General de la Dirección General de Medicamentos, Alimentos y Productos Sanitarios (DIGEMAPS), entidad rectora en materia regulatoria de los productos de consumo humano en la República Dominicana.</p>
+              <p>Abogado de profesión, cuenta con más de 15 años de experiencia en el ámbito del Derecho Administrativo, con especialización en contrataciones públicas, alianzas público-privadas, gestión pública y derecho a la salud.</p>
+              <p>Antes de asumir la dirección de la DIGEMAPS, se desempeñó como Asesor Legal de la institución, donde aportó a la consolidación del marco jurídico sanitario, la mejora regulatoria y la modernización de los procesos vinculados al registro, vigilancia y control sanitario.</p>
+              <p>Ha ocupado diversas posiciones de liderazgo en el sector público, incluyendo Asesor Legal del Despacho del Ministerio de Salud Pública (2021-2024) y Gerente del Departamento de Litigios en EDESUR Dominicana, S.A. (2016-2020).</p>
+              <p>Posee una Maestría en Derecho Administrativo por la Universidad de Castilla-La Mancha (España) y una Licenciatura en Derecho por la Pontificia Universidad Católica Madre y Maestra (PUCMM). Ha complementado su formación con diplomados en compras y contrataciones públicas, derecho procesal penal, registro inmobiliario y responsabilidad por productos defectuosos, entre otros.</p>
+              <p>Bajo su liderazgo, la DIGEMAPS continúa fortaleciendo su rol como autoridad reguladora moderna, técnica y transparente, en consonancia con los más altos estándares internacionales en materia de regulación sanitaria.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/junko-sato.jpeg" alt="Prof. Junko Sato" loading="lazy" /></div>
+            <h3 class="spk-name">Prof. Junko Sato</h3>
+            <p class="spk-role">PMDA, Japan</p>
+            <div class="spk-bio">
+              <p>Dr. Junko Sato started to work in regulatory agency in 1998. She worked in anti-infectives review and risk management before joining international area. During the period, she worked in U.S. FDA as a guest reviewer from 2002 to 2003 and EMA from 2012 to 14 as the MHLW/PMDA Liaison Officer.</p>
+              <p>She contributes to some global harmonization activities such as ICH, IPRP CIOMS as a rapporteur, chair etc. She also works for lots of academic societies such as a board member and a member of committees of them.</p>
+              <p>She also works for pediatric drug development around 30 years.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/noe-garcia-face.jpeg" alt="PhD. Noe Geovanni García Iraheta" loading="lazy" /></div>
+            <h3 class="spk-name">PhD. Noe Geovanni García Iraheta</h3>
+            <p class="spk-role">Superintendente de Regulación Sanitaria · SRS, El Salvador</p>
+            <div class="spk-bio">
+              <p>Abogado y Notario de la República de El Salvador, con sólida trayectoria en derecho administrativo y sanitario. Máster en Derecho Administrativo y Políticas Públicas, Doctor en Ciencias de la Salud y egresado del doctorado en Ciencias de la Educación por la Universidad de Ciencias Médicas de la Habana, Cuba. Cuenta con amplia experiencia en regulación, gestión pública y fortalecimiento institucional en el ámbito sanitario.</p>
+              <p>Como Superintendente de Regulación Sanitaria, lidera la consolidación de la SRS como Autoridad Regulatoria de Referencia a nivel internacional. Impulsa la modernización de procesos, la eficiencia regulatoria y la reducción de tiempos de respuesta para facilitar el comercio. Su gestión se orienta a garantizar servicios con altos estándares de calidad, promoviendo innovación, transparencia y crecimiento institucional.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/karla-raudales.jpeg" alt="Dra. Karla Galilea Raudales Munguía" loading="lazy" /></div>
+            <h3 class="spk-name">Dra. Karla Galilea Raudales Munguía</h3>
+            <p class="spk-role">Agencia de Regulación Sanitaria (ARSA) · Honduras</p>
+            <div class="spk-bio">
+              <p>Dra. Raudales se desempeña como Directora Nacional de Productos Farmacéuticos y Otros del Ramo de Interés Sanitario en la Agencia de Regulación Sanitaria (ARSA) de Honduras. Es Doctora en Ciencias Químicas y Farmacia, cuenta con un Máster en Dirección Empresarial y un Máster en Salud Pública. Con más de 10 años de experiencia en el ámbito de la regulación sanitaria, la Dra. Raudales lidera estrategias clave para el fortalecimiento institucional y la armonización regulatoria. Su gestión se enfoca en garantizar la seguridad, calidad y eficacia de los productos de interés sanitario, impulsando políticas orientadas a fortalecer la seguridad y calidad de los productos de interés sanitario, la modernización institucional y el compromiso con la salud pública.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/emmanuel-reyes.png" alt="Senador Emmanuel Reyes Carmona" loading="lazy" /></div>
+            <h3 class="spk-name">Senador Emmanuel Reyes Carmona</h3>
+            <p class="spk-role">Presidente de la Comisión de Economía · Senado de la República de México</p>
+            <div class="spk-bio">
+              <p>Senador de la República por Morena, licenciado en Mercadotecnia por la Universidad de Guanajuato y en Derecho por la Universidad Superior Bajío. Cuenta con experiencia legislativa como diputado federal (2018–2024), donde presidió la Comisión de Salud. Actualmente preside la Comisión de Economía en el Senado y participa activamente en temas de transparencia, movilidad y emprendimiento. Ha impulsado reformas en economía social, seguridad y salud pública, destacándose por su trabajo en favor de los derechos laborales y el fortalecimiento del modelo cooperativo.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/viviane-boaventura.jpeg" alt="Dra. Viviane Boaventura" loading="lazy" /></div>
+            <h3 class="spk-name">Dra. Viviane Boaventura</h3>
+            <p class="spk-role">Fiocruz · Brasil</p>
+            <div class="spk-bio">
+              <p>She is a physician and professor at the Faculty of Medicine, Federal University of Bahia, and a researcher at Fiocruz-Brazil, where she serves as Head of the Precision Medicine and Public Health Laboratory. She is an elected member of the Bahia State Academy of Sciences. Dr. Viviane has been co-leading projects in surveillance and digital health, with a focus on translating research findings into actionable public health strategies.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/eva-ruiz.png" alt="Dra. Eva María Ruiz de Castilla" loading="lazy" /></div>
+            <h3 class="spk-name">Dra. Eva María Ruiz de Castilla</h3>
+            <p class="spk-role">LAPA</p>
+            <div class="spk-bio">
+              <p>Eva Maria is a distinguished Latin American leader in patient advocacy, health policy, and strategic stakeholder engagement in the healthcare sector. She is Executive Director of Latin America Patients Academy (LAPA) and an international consultant, advising governments, the pharmaceutical industry, multilateral organizations, and civil society on high-impact initiatives focused on access, innovation, and sustainable health systems across Latin America.</p>
+              <p>With senior leadership experience in Peru’s public sector and a strong regional and global track record, Eva Maria is known for opening doors, building high-level strategic partnerships, and leading multi-country initiatives that deliver measurable results. Her ability to connect key stakeholders, anticipate trends, and transform complex challenges into growth opportunities makes her a high-value strategic partner for organizations seeking influence, expansion, and meaningful impact in the region.</p>
+              <p>She is a trusted voice in Latin America on patient engagement, rare diseases, HTA, access to innovation, and healthcare transformation.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/jesus-cabrero.jpeg" alt="Jesús Cabrero" loading="lazy" /></div>
+            <h3 class="spk-name">Jesús Cabrero</h3>
+            <p class="spk-role">CEO General Manager · Provokers México</p>
+            <div class="spk-bio">
+              <p>Ingeniero Industrial con Maestría en Administración de Empresas con más de 25 años de experiencia en el mundo del marketing, lidereando las estrategias de marketing para compañías en el sector de alimentos y bebidas. Posteriormente, desde posiciones en agencias, dirigiendo esfuerzos de marketing digital e investigación de mercados.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/erika-castro.jpeg" alt="Erika Castro" loading="lazy" /></div>
+            <h3 class="spk-name">Erika Castro</h3>
+            <p class="spk-role">Gerente · Provokers Bogotá, Colombia</p>
+            <div class="spk-bio">
+              <p>Ingeniero Industrial con Maestría en Mercadeo, con experiencia de 22 años en Investigación de Mercados en diferentes sectores y tipos de investigación, incluyendo 11 años de experiencia en el sector salud, especialmente con EPS y medicina prepagada.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/juan-thompson.jpeg" alt="Juan Thompson" loading="lazy" /></div>
+            <h3 class="spk-name">Juan Thompson</h3>
+            <p class="spk-role">Presidente Ejecutivo · ILAR (Brasil)</p>
+            <div class="spk-bio">
+              <p>Licenciado en Asuntos Gubernamentales e Internacionales, con un MBA en Asuntos Gubernamentales y una maestría en Desarrollo Sostenible. Con más de doce años de experiencia en políticas de salud en América Latina, ha trabajado en el análisis de instituciones clave y su influencia en la formulación de políticas públicas. Actualmente es Presidente Ejecutivo de ILAR y miembro de la Junta Directiva de la Global Self-Care Federation, desde donde impulsa el autocuidado a nivel regional e internacional.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/melissa-valencia.jpeg" alt="Melissa Valencia" loading="lazy" /></div>
+            <h3 class="spk-name">Melissa Valencia</h3>
+            <p class="spk-role">Asesora de Asuntos Regulatorios · ILAR (Colombia)</p>
+            <div class="spk-bio">
+              <p>Negociadora Internacional con MBA y más de 10 años de experiencia en gestión gremial en el sector salud. Posee un diplomado en Compuestos Bioactivos, Alimentos Funcionales y Suplementos Dietarios. Nutrición, Salud y Regulación de la Universidad Jorge Tadeo Lozano (Colombia), así como una certificación del Curso Internacional en Autocuidado de la Salud del Instituto de Nutrición de Centro América y Panamá (INCAP). Ha contribuido al avance regulatorio y al diseño de estrategias educativas orientadas a fomentar la práctica del autocuidado. Asimismo, lideró el estudio regional encargado por ILAR sobre el valor económico y social del autocuidado mediante el uso de suplementos alimenticios.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/alejandra-espinosa.jpeg" alt="Alejandra Espinosa" loading="lazy" /></div>
+            <h3 class="spk-name">Alejandra Espinosa</h3>
+            <p class="spk-role">Gerente de Asuntos Regulatorios · ILAR (México)</p>
+            <div class="spk-bio">
+              <p>Licenciada en Nutrición Humana con Maestría en Salud Pública y especialización en Comportamiento en Salud por la Universidad de Birmingham en Estados Unidos, cuenta con más de 10 años de experiencia en el sector salud, abarcando áreas como asuntos regulatorios y planeamiento estratégico. Su formación se complementa con una certificación en Investigación en Salud Pública y Análisis Estadístico por el CITI Program, así como diversos cursos en nutrición, salud, planeación de proyectos y desarrollo de políticas sociales. Su trayectoria combina el conocimiento técnico con una visión integral para impulsar cambios sostenibles en salud pública.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/edith-salmeron.jpeg" alt="Edith Salmerón" loading="lazy" /></div>
+            <h3 class="spk-name">Edith Salmerón</h3>
+            <p class="spk-role">Asesora de Asuntos Públicos y Comunicación · ILAR (México)</p>
+            <div class="spk-bio">
+              <p>Licenciada en Comunicación con más de diez años de experiencia en el diseño e implementación de estrategias de comunicación, relaciones públicas y estrategia digital. Ha trabajado en organizaciones nacionales e internacionales como USAID y USDOL, coordinando campañas, eventos y relaciones con medios de comunicación, generando contenidos relevantes y fortaleciendo la reputación institucional. Actualmente se desempeña como asesora de asuntos públicos y comunicación en ILAR, donde contribuye al posicionamiento del autocuidado como estrategia clave de salud en América Latina.</p>
+            </div>
+          </li>
+
+          <li class="spk-card">
+            <div class="spk-photo"><img src="assets/ponentes/laura-otalora.png" alt="Laura Otálora" loading="lazy" /></div>
+            <h3 class="spk-name">Laura Otálora</h3>
+            <p class="spk-role">Coordinadora del Comité Regulatorio de ILAR · Colombia</p>
+            <div class="spk-bio">
+              <p>Licenciada en Farmacia de la Universidad Nacional de Colombia y Especialista en Administración de Empresas de la Universidad Colegio Mayor del Rosario en Colombia. A lo largo de sus 20 años de experiencia en asuntos regulatorios y públicos, ha desarrollado proyectos y estrategias para mejorar el acceso a la información y a la alfabetización en salud, así como a opciones de productos de autocuidado, con el objetivo de mejorar los resultados en salud de los individuos y la sustentabilidad de los sistemas de salud. Actualmente, es Coordinadora del Comité Regulatorio de la Asociación Latinoamericana por el Autocuidado Responsable – ILAR, entidad comprometida con la promoción del autocuidado a nivel internacional.</p>
+            </div>
+          </li>
+        </ul>
+
+        <button class="spk-nav spk-next" type="button" aria-label="Ponentes siguientes">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+
+      <div class="spk-dots" id="spkDots" aria-hidden="true"></div>
     </div>
   </section>
 
