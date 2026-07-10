@@ -194,19 +194,47 @@ a:hover{text-decoration:underline;}
 }
 .agenda-row .ag-label{color:var(--texto);font-weight:600;}
 .agenda-list .session-card{padding-top:24px;}
+.agenda-note{
+  display:block;margin-top:6px;font-size:.85rem;font-style:italic;font-weight:500;
+  color:var(--texto-suave);line-height:1.4;
+}
+
+/* Personas asociadas a cada sesión */
+.session-people{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px 32px;align-items:start;
+  margin-top:18px;padding-top:18px;border-top:1px solid var(--borde);
+}
+.session-person{display:flex;align-items:center;gap:12px;}
+.sp-avatar{
+  width:54px;height:54px;border-radius:50%;overflow:hidden;flex:none;
+  padding:2px;background:var(--grad-marca);
+  box-shadow:0 4px 12px rgba(28,61,82,.16);
+}
+.sp-avatar img{
+  width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:center top;
+  background:var(--bg-claro);display:block;
+}
+.sp-avatar.sp-initials{
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:700;font-size:1.05rem;letter-spacing:.02em;
+}
+.sp-info{min-width:0;}
+.sp-name{margin:0;font-size:.92rem;font-weight:700;line-height:1.25;color:var(--texto);}
+.sp-role{margin:2px 0 0;font-size:.78rem;color:var(--texto-suave);line-height:1.3;}
 
 /* Ponentes (carrusel) */
 .speakers{position:relative;display:flex;align-items:center;gap:8px;}
 .spk-track{
   list-style:none;margin:0;padding:8px 4px 12px;
   display:flex;gap:22px;flex:1;
-  overflow-x:auto;scroll-snap-type:x proximity;align-items:flex-start;
+  overflow-x:auto;scroll-snap-type:x proximity;align-items:stretch;
   scroll-behavior:smooth;-webkit-overflow-scrolling:touch;
   scrollbar-width:none;
 }
 .spk-track::-webkit-scrollbar{display:none;}
 .spk-card{
-  flex:0 0 330px;scroll-snap-align:start;height:470px;
+  flex:0 0 300px;scroll-snap-align:start;height:auto;justify-content:flex-start;
   background:#fff;border:1px solid var(--borde);border-radius:var(--radio);
   box-shadow:var(--sombra);padding:28px 24px 22px;
   display:flex;flex-direction:column;align-items:center;text-align:center;
@@ -367,6 +395,7 @@ a:hover{text-decoration:underline;}
   .info-card.wide{grid-column:auto;}
   .spk-card{flex-basis:82vw;max-width:320px;}
   .spk-nav{display:none;}
+  .session-people{grid-template-columns:1fr;}
   .quickbar-inner{gap:16px;}
   .quickbar-cta{margin-left:0;width:100%;}
   .services{grid-template-columns:1fr 1fr;}
