@@ -65,7 +65,11 @@
     <div class="container">
       <div class="section-head">
         <h2 class="section-title">Ponentes</h2>
-        <p class="lead-sm">Toca el nombre de cualquier ponente para ver su biografía.</p>
+        <p class="lead-sm" id="bioHint">Toca el nombre de cualquier ponente para ver su biografía.</p>
+        <div class="bio-lang" role="group" aria-label="Idioma de las biografías / Biography language">
+          <button type="button" data-lang="es" aria-pressed="true">Español</button>
+          <button type="button" data-lang="en" aria-pressed="false">English</button>
+        </div>
       </div>
       <div class="bio-grid" id="bioSpeakers"></div>
 

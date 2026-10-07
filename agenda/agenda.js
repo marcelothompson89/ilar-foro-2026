@@ -5,7 +5,8 @@
   var data = window.FORO_DATA;
   if (!data) { return; }
 
-  var BIO_PROVISIONAL = 'Biografía próxima a publicarse.';
+  var BIO_PROVISIONAL = { es: 'Biografía próxima a publicarse.', en: 'Biography coming soon.' };
+  var lang = 'es';
   var byId = {};
   data.speakers.forEach(function (p) { byId[p.id] = p; });
 
@@ -85,8 +86,14 @@
     d.appendChild(s);
 
     var body = el('div', 'bio-body');
-    var txt = el('p', p.bio ? '' : 'bio-pending', p.bio || BIO_PROVISIONAL);
-    body.appendChild(txt);
+    ['es', 'en'].forEach(function (l) {
+      var text = l === 'en' ? (p.bioEn || p.bio) : p.bio;
+      var txt = el('p', text ? '' : 'bio-pending', text || BIO_PROVISIONAL[l]);
+      txt.setAttribute('data-lang', l);
+      txt.lang = l;
+      if (l === 'en' && !p.bioEn && p.bio) { txt.lang = 'es'; }
+      body.appendChild(txt);
+    });
     d.appendChild(body);
     return d;
   }
@@ -96,6 +103,24 @@
     arr.forEach(function (p) { box.appendChild(bioCard(p)); });
   }
   fill('bioSpeakers', data.speakers);
+
+  /* Selector de idioma (solo biografías) */
+  var grid = document.getElementById('bioSpeakers');
+  var langBtns = document.querySelectorAll('.bio-lang button');
+  function setLang(l) {
+    lang = l;
+    grid.setAttribute('data-lang', l);
+    langBtns.forEach(function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-lang') === l ? 'true' : 'false');
+    });
+    document.getElementById('bioHint').textContent = l === 'en'
+      ? 'Tap the name of any speaker to read their biography.'
+      : 'Toca el nombre de cualquier ponente para ver su biografía.';
+  }
+  langBtns.forEach(function (b) {
+    b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); });
+  });
+  setLang('es');
 
   /* Abre la biografía a la que apunta el enlace (#ponente-...) */
   function openFromHash() {
