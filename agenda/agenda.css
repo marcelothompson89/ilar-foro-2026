@@ -15,7 +15,6 @@
 
 /* Biografías */
 .bio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 22px;align-items:start;}
-.bio-subhead{margin-top:64px;}
 .bio-card{background:#fff;border:1px solid var(--borde);border-radius:var(--radio);box-shadow:var(--sombra);transition:box-shadow .2s ease;}
 .bio-card[open]{box-shadow:var(--sombra-hover);border-color:var(--cian);}
 .bio-card summary{
@@ -47,5 +46,4 @@
   .ag-hero{padding:30px 0 24px;}
   .bio-grid{grid-template-columns:1fr;}
   .bio-body{padding:2px 18px 18px 18px;}
-  .bio-subhead{margin-top:48px;}
 }

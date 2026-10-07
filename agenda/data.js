@@ -1,4 +1,4 @@
-/* Datos de la agenda y los ponentes del II Foro ILAR.
+/* Datos de la agenda y los ponentes de las sesiones del II Foro ILAR.
  * Fuente única de /agenda/. Para agregar una biografía, escribe el texto en el
  * campo "bio" del ponente (texto plano; deja "" para mostrar el texto provisional).
  * Regenerado a partir de index.html. */
@@ -311,79 +311,6 @@ window.FORO_DATA = {
       "name": "Dr. Juan Carlos Esquivel Sánchez",
       "role": "Viceministro de Salud, Costa Rica",
       "photo": "juan-carlos-esquivel.png",
-      "bio": ""
-    }
-  ],
-  "authorities": [
-    {
-      "id": "marcos-miguel-balaguer-jerez",
-      "name": "Lic. Marcos Miguel Balaguer Jerez",
-      "role": "Director General · DIGEMAPS, R. Dominicana",
-      "photo": "marcos-balaguer.jpeg",
-      "bio": ""
-    },
-    {
-      "id": "junko-sato",
-      "name": "Prof. Junko Sato",
-      "role": "Office Director · PMDA, Japón",
-      "photo": "junko-sato.jpeg",
-      "bio": ""
-    },
-    {
-      "id": "karla-galilea-raudales-munguia",
-      "name": "Dra. Karla Galilea Raudales Munguía",
-      "role": "Agencia de Regulación Sanitaria (ARSA) · Honduras",
-      "photo": "karla-raudales.jpeg",
-      "bio": ""
-    },
-    {
-      "id": "maria-fernanda-mendoza-rodriguez",
-      "name": "María Fernanda Mendoza Rodríguez",
-      "role": "Agencia de Regulación Sanitaria (ARSA) · Honduras",
-      "photo": "maria-fernanda-mendoza.jpg",
-      "bio": ""
-    },
-    {
-      "id": "lizzet-colman-duarte",
-      "name": "Q.F. Lizzet Colman Duarte",
-      "role": "Responsable de Funciones, Departamento Farmacológico, Dirección de Medicamentos (DGERS) · DINAVISA, Paraguay",
-      "photo": "lizzet_colman_duarte.jpg",
-      "bio": "",
-      "photoStyle": "transform:scale(2.4);transform-origin:50% 20%"
-    },
-    {
-      "id": "carlos-ignacio-calderon-arroyo",
-      "name": "Dr. Carlos Ignacio Calderón Arroyo",
-      "role": "Director de Regulación de Productos de Interés y Riesgo Sanitario · Ministerio de Salud de Costa Rica",
-      "photo": "carlos-calderon.png",
-      "bio": ""
-    },
-    {
-      "id": "lorena-rojas",
-      "name": "Lorena Rojas",
-      "role": "Jefa del Departamento de Registro Sanitario, Dirección Nacional de Farmacia y Drogas · Ministerio de Salud de Panamá",
-      "photo": "lorena-rojas.png",
-      "bio": ""
-    },
-    {
-      "id": "edelma-ros",
-      "name": "Edelma Ros",
-      "role": "Ministerio de Salud · Uruguay",
-      "photo": "edelma-ros.png",
-      "bio": ""
-    },
-    {
-      "id": "uche-abass",
-      "name": "Uche Abass",
-      "role": "Head of MAT3, Established Medicines – HQA · Medicines and Healthcare products Regulatory Agency (MHRA), Reino Unido",
-      "photo": "uche-abass.png",
-      "bio": ""
-    },
-    {
-      "id": "rocio-hermoza-moquillaza",
-      "name": "Q.F. Rocío Hermoza Moquillaza",
-      "role": "Químico Farmacéutico · DIGEMID, Perú",
-      "photo": "rocio-hermoza.jpg",
       "bio": ""
     }
   ]

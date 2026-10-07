@@ -30,7 +30,7 @@ Sitio web estático para el evento de 25 años de ILAR:
 ## Página /agenda/
 
 `agenda/index.html` muestra la agenda completa y las biografías de los ponentes.
-Los datos viven en **`agenda/data.js`** (sesiones, ponentes y autoridades): para
+Los datos viven en **`agenda/data.js`** (sesiones y ponentes): para
 publicar una biografía, escribe el texto en el campo `"bio"` del ponente; mientras
 esté vacío se muestra un texto provisional.
 

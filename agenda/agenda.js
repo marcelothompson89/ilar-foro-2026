@@ -7,7 +7,7 @@
 
   var BIO_PROVISIONAL = 'Biografía próxima a publicarse.';
   var byId = {};
-  data.speakers.concat(data.authorities).forEach(function (p) { byId[p.id] = p; });
+  data.speakers.forEach(function (p) { byId[p.id] = p; });
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
@@ -96,7 +96,6 @@
     arr.forEach(function (p) { box.appendChild(bioCard(p)); });
   }
   fill('bioSpeakers', data.speakers);
-  fill('bioAuthorities', data.authorities);
 
   /* Abre la biografía a la que apunta el enlace (#ponente-...) */
   function openFromHash() {
