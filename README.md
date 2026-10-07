@@ -27,6 +27,17 @@ Sitio web estático para el evento de 25 años de ILAR:
 > dominio público). Centroamérica se representa con un icono de región (globo),
 > al no corresponder a un solo país.
 
+## Página /agenda/
+
+`agenda/index.html` muestra la agenda completa y las biografías de los ponentes.
+Los datos viven en **`agenda/data.js`** (sesiones, ponentes y autoridades): para
+publicar una biografía, escribe el texto en el campo `"bio"` del ponente; mientras
+esté vacío se muestra un texto provisional.
+
+El código QR (`assets/qr/agenda-qr.svg` y `.png`) apunta a
+`https://foro2026.infoilar.org/agenda/?utm_source=qr`. Si cambia el dominio, hay que
+regenerarlo (por ejemplo con la librería Python `segno`, corrección de errores nivel H).
+
 ## Ver el sitio localmente
 
 Abre `index.html` con doble clic, o sirve la carpeta con un servidor estático
