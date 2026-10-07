@@ -1,0 +1,49 @@
+/* Estilos exclusivos de /agenda/ (se suman a /styles.css) */
+
+.ag-hero{background:var(--bg-claro);padding:44px 0 34px;text-align:center;border-bottom:1px solid var(--borde);}
+.ag-hero h1{font-size:clamp(1.9rem,4.4vw,3rem);font-weight:800;line-height:1.1;margin:0 0 10px;color:var(--texto);}
+.ag-hero-sub{margin:0 auto 20px;max-width:560px;color:var(--texto-suave);font-size:1.02rem;}
+.ag-tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+
+#agenda,#ponentes{scroll-margin-top:68px;}
+.bio-card{scroll-margin-top:84px;}
+
+/* Ponentes enlazados desde la agenda */
+.sp-link{color:inherit;text-decoration:none;border-radius:12px;transition:background .15s ease;}
+.sp-link:hover,.sp-link:focus-visible{background:var(--bg-claro);text-decoration:none;}
+.session-person.sp-link{margin:-6px;padding:6px;}
+
+/* Biografías */
+.bio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 22px;align-items:start;}
+.bio-card{background:#fff;border:1px solid var(--borde);border-radius:var(--radio);box-shadow:var(--sombra);transition:box-shadow .2s ease;}
+.bio-card[open]{box-shadow:var(--sombra-hover);border-color:var(--cian);}
+.bio-card summary{
+  display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer;list-style:none;
+  min-height:44px;
+}
+.bio-card summary::-webkit-details-marker{display:none;}
+.bio-card summary:focus-visible{outline:3px solid var(--cian);outline-offset:2px;border-radius:var(--radio);}
+.bio-photo{
+  width:64px;height:64px;border-radius:50%;overflow:hidden;flex:none;padding:2px;
+  background:var(--grad-marca);box-shadow:0 4px 12px rgba(28,61,82,.16);
+}
+.bio-photo img{width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:center top;background:var(--bg-claro);display:block;}
+.bio-photo.sp-initials{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.15rem;}
+.bio-info{flex:1;min-width:0;display:block;}
+.bio-name{display:block;font-weight:700;font-size:1rem;line-height:1.25;color:var(--texto);}
+.bio-role{display:block;margin-top:3px;font-size:.84rem;line-height:1.35;color:var(--texto-suave);}
+.bio-chevron{
+  flex:none;width:10px;height:10px;margin-right:4px;
+  border-right:2.5px solid var(--azul);border-bottom:2.5px solid var(--azul);
+  transform:rotate(45deg);transition:transform .2s ease;
+}
+.bio-card[open] .bio-chevron{transform:rotate(-135deg);}
+.bio-body{padding:2px 20px 18px 94px;color:var(--texto);font-size:.95rem;line-height:1.6;}
+.bio-body p{margin:0;}
+.bio-pending{color:var(--texto-suave);font-style:italic;}
+
+@media (max-width:760px){
+  .ag-hero{padding:30px 0 24px;}
+  .bio-grid{grid-template-columns:1fr;}
+  .bio-body{padding:2px 18px 18px 18px;}
+}
