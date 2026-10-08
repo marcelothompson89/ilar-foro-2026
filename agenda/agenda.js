@@ -58,8 +58,8 @@
     it.speakers.forEach(function (id) {
       var p = byId[id];
       if (!p) { return; }
-      var a = el('a', 'session-person sp-link');
-      a.href = '#ponente-' + p.id;
+      var a = el(p.noBio ? 'div' : 'a', p.noBio ? 'session-person' : 'session-person sp-link');
+      if (!p.noBio) { a.href = '#ponente-' + p.id; }
       a.appendChild(avatar(p, 'sp-avatar'));
       var info = el('div', 'sp-info');
       info.appendChild(el('p', 'sp-name', p.name));
@@ -100,7 +100,7 @@
 
   function fill(id, arr) {
     var box = document.getElementById(id);
-    arr.forEach(function (p) { box.appendChild(bioCard(p)); });
+    arr.forEach(function (p) { if (!p.noBio) { box.appendChild(bioCard(p)); } });
   }
   fill('bioSpeakers', data.speakers);
 

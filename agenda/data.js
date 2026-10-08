@@ -119,7 +119,8 @@ window.FORO_DATA = {
       "name": "Dr. Jarbas Barbosa",
       "role": "Director, OPS/OMS",
       "photo": "jarbas-barbosa.jpg",
-      "bio": ""
+      "bio": "",
+      "noBio": true
     },
     {
       "id": "emmanuel-reyes-carmona",
@@ -149,7 +150,7 @@ window.FORO_DATA = {
       "name": "MSc. Juan Thompson",
       "role": "Presidente Ejecutivo, ILAR",
       "photo": "juan-thompson.jpeg",
-      "bio": ""
+      "bio": "Presidente Ejecutivo de ILAR, miembro de la Junta Directiva de la Global Self-Care Federation (GSCF) y miembro fundador de CLAPAS. Cuenta con más de 15 años de experiencia en asuntos públicos, políticas de salud y relacionamiento institucional en América Latina, con énfasis en autocuidado, regulación sanitaria y alfabetización en salud. Ha articulado iniciativas con gobiernos, autoridades regulatorias, organismos internacionales, academia, sociedad civil y sector privado. Es licenciado en Asuntos Gubernamentales e Internacionales por UADE, MBA en Asuntos Gubernamentales por la Fundação Getulio Vargas y MSc en Desarrollo Sostenible por la Universidad de Sussex."
     },
     {
       "id": "jose-moya-medina",
@@ -260,7 +261,7 @@ window.FORO_DATA = {
       "name": "MPH Alejandra Espinosa",
       "role": "Gerente, ILAR",
       "photo": "alejandra-espinosa.jpeg",
-      "bio": ""
+      "bio": "Licenciada en Nutrición y Máster en Salud Pública, con especialización en Comportamiento en Salud, por la Universidad de Birmingham, Estados Unidos. Cuenta con más de diez años de experiencia en salud pública, asuntos regulatorios, planeación estratégica y desarrollo de iniciativas regionales. Desde 2018 se desempeña como Gerente de ILAR, donde lidera proyectos sobre autocuidado, alfabetización en salud y fortalecimiento de sistemas de salud. Su experiencia incluye modernización y convergencia regulatoria, estudios de percepción y comportamiento en salud, y articulación con autoridades regulatorias, organismos internacionales, academia, industria y otros actores clave."
     },
     {
       "id": "mariana-lucena",
