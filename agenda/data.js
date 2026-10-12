@@ -93,12 +93,12 @@ window.FORO_DATA = {
       "time": "17:00 – 17:45",
       "title": "Panel de lanzamiento oficial de la Coalición Latinoamericana para la Alfabetización en Salud (CLAPAS)",
       "speakers": [
-        "jose-renan",
+        "victor-elias-atallah-lajam",
+        "juan-carlos-esquivel-sanchez",
         "manuel-zambrano-chang",
         "carlos-gabriel-alvarenga",
         "angel-eduardo-midence-ochoa",
-        "victor-elias-atallah-lajam",
-        "juan-carlos-esquivel-sanchez"
+        "jose-renan"
       ]
     },
     {
