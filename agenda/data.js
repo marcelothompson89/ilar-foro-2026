@@ -288,7 +288,7 @@ window.FORO_DATA = {
     },
     {
       "id": "jose-renan",
-      "name": "Dr. José Renan",
+      "name": "Dr. José Renan de León",
       "role": "Secretario General, SE-COMISCA",
       "photo": "jose_renan.jpg",
       "bio": "Secretario Ejecutivo del Consejo de Ministros de Salud de Centroamérica y República Dominicana (SE-COMISCA), donde lidera la articulación regional en políticas de salud. Entre 2020 y 2025 fue Director del Instituto de Nutrición de Centroamérica y Panamá (INCAP), impulsando iniciativas regionales de nutrición y seguridad alimentaria. En el Ministerio de Salud de Panamá ocupó responsabilidades nacionales en salud nutricional y programas alimentarios, participando en políticas, normas y programas para prevenir la malnutrición, fortalecer la fortificación de alimentos y mejorar la atención nutricional hospitalaria.",
