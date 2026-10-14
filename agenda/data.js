@@ -62,6 +62,7 @@ window.FORO_DATA = {
       "time": "14:15 – 15:30",
       "title": "Autocuidado e innovación regulatoria",
       "speakers": [
+        "victor-hugo-borja-aburto",
         "laura-otalora",
         "catterina-ferreccio",
         "daniela-marreco-cerqueira",
@@ -207,6 +208,22 @@ window.FORO_DATA = {
       "photo": "rodrigo-saucedo.jpg",
       "bio": "Economista por el CIDE, con estudios de posgrado en innovación y emprendimiento y en gestión de proyectos. Cuenta con más de 18 años de experiencia en Salud Digital y ha liderado el desarrollo tecnológico de más de 25 plataformas digitales y más de 10 modelos analíticos basados en big data e inteligencia artificial. Ha publicado más de 35 artículos académicos y capítulos de libro sobre economía de la salud, enfermedades crónicas, vacunación, salud materna y salud digital. Ha sido consultor nacional e internacional, impartido más de 100 conferencias y es profesor en la UNAM y la Universidad Panamericana.",
       "bioEn": "Economist trained at CIDE, with postgraduate studies in innovation and entrepreneurship and in project management. He has more than 18 years of experience in Digital Health and has led the technological development of more than 25 digital platforms and over 10 analytical models using big data and artificial intelligence. He has published more than 35 academic articles and book chapters on health economics, chronic diseases, vaccination, maternal health, and digital health. He has consulted for national and international organizations, delivered more than 100 lectures, and teaches at UNAM and Universidad Panamericana."
+    },
+    {
+      "id": "victor-hugo-borja-aburto",
+      "name": "Dr. Víctor Hugo Borja Aburto",
+      "role": "Comisionado Federal para la Protección Contra Riesgos Sanitarios, COFEPRIS",
+      "photo": "victor-hugo-borja-aburto.png",
+      "bio": "Médico cirujano por la UAM-Xochimilco, con maestrías en Salud Pública y en Ciencias en Epidemiología, y doctorado en Epidemiología por la Universidad de Carolina del Norte en Chapel Hill. Fue profesor y director de Epidemiología y Bioestadística en la Escuela de Salud Pública de México, director fundador del Centro Nacional de Salud Ambiental en la Secretaría de Salud y ocupó cargos de coordinación en Salud en el Trabajo, Vigilancia Epidemiológica y Atención Primaria en el IMSS. Sus investigaciones sobre calidad del aire y contaminantes son referentes para la OMS y la EPA, y representó a México en el TLCAN para el manejo seguro de sustancias químicas. Es miembro de la Academia Nacional de Medicina y del Sistema Nacional de Investigadores (Nivel III). Desde el 1 de enero de 2026 es Comisionado Federal para la Protección Contra Riesgos Sanitarios.",
+      "bioEn": "Physician (UAM-Xochimilco) with master’s degrees in Public Health and in Epidemiology, and a Ph.D. in Epidemiology from the University of North Carolina at Chapel Hill. He was a professor and Director of Epidemiology and Biostatistics at the Mexican School of Public Health, founding Director of the National Center for Environmental Health at the Ministry of Health, and held coordination roles in Occupational Health, Epidemiological Surveillance, and Primary Care at IMSS. His research on air quality and pollutants is a reference for WHO and the U.S. EPA, and he represented Mexico under NAFTA on the safe management of chemical substances. He is a member of the National Academy of Medicine and of Mexico’s National System of Researchers (Level III). Since January 1, 2026, he has served as Federal Commissioner for the Protection against Sanitary Risks (COFEPRIS)."
+    },
+    {
+      "id": "sebastian-rami-fernandez",
+      "name": "Sebastián Rami Fernández",
+      "role": "Coordinador Programa de Monitoreo y Fiscalización de Publicidad y Promoción de Productos Sujetos a Vigilancia Sanitaria, ANMAT",
+      "photo": "sebastian_rami_fernandez.jpg",
+      "bio": "Licenciado en Publicidad y magíster en Gestión de la Comunicación en las Organizaciones. Integra ANMAT desde 2011 y coordina desde 2014 el Programa de Monitoreo y Fiscalización de Publicidad y Promoción de Productos Sujetos a Vigilancia Sanitaria. Es referente institucional en comercio electrónico de productos para la salud y, desde 2012, del convenio vigente entre ANMAT y Mercado Libre. Actúa como punto focal ante Meta y TikTok, entre otras plataformas del entorno digital. Desarrolla actividades docentes sobre publicidad sanitaria e integra los grupos de trabajo de ILAR desde 2014.",
+      "bioEn": "Holds a degree in Advertising and a master’s in Communication Management in Organizations. He has been with ANMAT since 2011 and, since 2014, has coordinated the Program for Monitoring and Oversight of Advertising and Promotion of Products Subject to Health Surveillance. He is the institutional reference for e-commerce of health products and, since 2012, for the agreement between ANMAT and Mercado Libre. He serves as focal point with Meta and TikTok, among other digital platforms. He teaches on health advertising and has been part of ILAR’s working groups since 2014."
     },
     {
       "id": "laura-otalora",
