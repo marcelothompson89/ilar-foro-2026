@@ -171,11 +171,11 @@ window.FORO_DATA = {
     },
     {
       "id": "alejandro-robayo-duarte",
-      "name": "Dr. Alejandro Robayo Duarte",
-      "role": "Director de Medicamentos, Invima · Colombia",
-      "photo": null,
-      "bio": "",
-      "initials": "AR"
+      "name": "Enrique Alejandro Robayo Duarte",
+      "role": "Director Técnico de la Dirección de Medicamentos, Invima · Colombia",
+      "photo": "alejandro-robayo.png",
+      "bio": "Químico farmacéutico de la Universidad Nacional de Colombia, especialista en Dirección y Gestión de Proyectos de la Universidad Sergio Arboleda y magíster en Políticas Públicas de la Universidad de los Andes, con énfasis en políticas de salud pública. Cuenta con más de 15 años de experiencia en el sector salud y farmacéutico. Desde 2019 es profesional especializado del Ministerio de Salud y Protección Social, donde ha trabajado en mejora regulatoria de medicamentos y registros sanitarios, buenas prácticas regulatorias, regulación del sector farmacéutico y cooperación regulatoria internacional. Durante más de ocho años coordinó la gestión de medicamentos de monopolio del Estado en el Fondo Nacional de Estupefacientes. Ha participado en la formulación de regulación sobre registros sanitarios, publicidad y comercialización de medicamentos, planes de gestión de riesgos y autorizaciones sanitarias de uso de emergencia.",
+      "bioEn": "Pharmaceutical chemist from the National University of Colombia, with a specialization in Project Management from Universidad Sergio Arboleda and a master’s degree in Public Policy from Universidad de los Andes, with an emphasis on public health policy. He has more than 15 years of experience in the health and pharmaceutical sectors. Since 2019, he has been a specialized professional at the Ministry of Health and Social Protection, working on regulatory improvement for medicines and health registrations, good regulatory practices, pharmaceutical sector regulation, and international regulatory cooperation. For more than eight years, he coordinated the management of State-monopoly medicines at the National Narcotics Fund. He has contributed to regulations on health registrations, medicine advertising and marketing, risk management plans, and emergency use authorizations."
     },
     {
       "id": "alejandra-acuna",
