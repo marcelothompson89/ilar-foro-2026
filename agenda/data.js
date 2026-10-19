@@ -17,7 +17,6 @@ window.FORO_DATA = {
       "speakers": [
         "jarbas-barbosa",
         "emmanuel-reyes-carmona",
-        "maria-alejandra-alegria",
         "josephine-fubara",
         "juan-thompson"
       ]
@@ -66,8 +65,7 @@ window.FORO_DATA = {
         "laura-otalora",
         "catterina-ferreccio",
         "daniela-marreco-cerqueira",
-        "noe-geovanni-garcia-iraheta",
-        "daniel-antonio-sanchez-porcel"
+        "noe-geovanni-garcia-iraheta"
       ]
     },
     {
@@ -94,7 +92,6 @@ window.FORO_DATA = {
       "time": "17:00 – 17:45",
       "title": "Panel de lanzamiento oficial de la Coalición Latinoamericana para la Alfabetización en Salud (CLAPAS)",
       "speakers": [
-        "victor-elias-atallah-lajam",
         "juan-carlos-esquivel-sanchez",
         "manuel-zambrano-chang",
         "carlos-gabriel-alvarenga",
@@ -130,13 +127,6 @@ window.FORO_DATA = {
       "photo": "emmanuel-reyes.png",
       "bio": "Senador de la República de México y Presidente de la Comisión de Economía. Es licenciado en Mercadotecnia por la Universidad de Guanajuato y en Derecho por la Universidad Superior Bajío. Fue diputado federal entre 2018 y 2024, periodo en el que presidió la Comisión de Salud. Su trabajo legislativo incluye temas de transparencia, movilidad, emprendimiento, economía social, seguridad y salud pública. Ha promovido iniciativas orientadas a los derechos laborales y al fortalecimiento del modelo cooperativo.",
       "bioEn": "Mexican Senator and Chair of the Senate’s Economy Committee. He holds degrees in Marketing from the University of Guanajuato and Law from Universidad Superior Bajío. From 2018 to 2024, he served as a federal deputy and chaired the Health Committee. His legislative work spans transparency, mobility, entrepreneurship, social economy, security, and public health. He has promoted initiatives supporting labor rights and strengthening the cooperative model."
-    },
-    {
-      "id": "maria-alejandra-alegria",
-      "name": "Lic. María Alejandra Alegría",
-      "role": "Titular de la Unidad Coordinadora de Vinculación y Participación Social, Secretaría de Salud, México",
-      "photo": "alejandra-alegria.jpg",
-      "bio": ""
     },
     {
       "id": "josephine-fubara",
@@ -258,14 +248,6 @@ window.FORO_DATA = {
       "bioEn": "Salvadoran attorney and notary with experience in administrative law, health law, regulation, and public management. He holds a master’s degree in Administrative Law and Public Policy, a doctorate in Health Sciences, and completed doctoral coursework in Education Sciences at the University of Medical Sciences of Havana. As Superintendent of Health Regulation, he leads efforts to strengthen SRS as an internationally recognized regulatory authority, advancing modernization, regulatory efficiency, shorter response times, innovation, transparency, and high-quality services."
     },
     {
-      "id": "daniel-antonio-sanchez-porcel",
-      "name": "Dr. Daniel Antonio Sánchez Porcel",
-      "role": "Director Ejecutivo, ARCSA · Ecuador",
-      "photo": "daniel-sanchez.png",
-      "bio": "Médico con formación en salud pública y gestión hospitalaria. Ha dirigido instituciones de salud como el Hospital de Infectología “Dr. José Daniel Rodríguez” y el Hospital de Especialidades. Fue Coordinador del Ministerio de Salud Pública en las Zonas 5 y 8, responsable de ejecutar la planificación y estrategias sanitarias en territorio. En ARCSA se desempeñó como Coordinador General Técnico de Vigilancia y Control Posterior. Desde el 6 de diciembre de 2023 es Director Ejecutivo de la Agencia.",
-      "bioEn": "Physician with training in public health and hospital management. He has led healthcare institutions including the Dr. José Daniel Rodríguez Infectious Diseases Hospital and the Specialty Hospital. He served as a Ministry of Public Health coordinator for Zones 5 and 8, implementing health planning and strategies at the territorial level. At ARCSA, he was General Technical Coordinator for Post-Market Surveillance and Control. Since December 6, 2023, he has served as the Agency’s Executive Director."
-    },
-    {
       "id": "jesus-cabrera",
       "name": "Jesús Cabrera",
       "role": "Director General, Provokers México",
@@ -335,14 +317,6 @@ window.FORO_DATA = {
       "photo": "angel-midence.png",
       "bio": "Médico especialista en Salud Pública con más de diez años de experiencia en dirección, planificación y fortalecimiento de sistemas de salud. Como Subsecretario de Redes Integradas de Servicios de Salud de Honduras lidera procesos de transformación del sistema sanitario. Cuenta con experiencia en monitoreo y evaluación, gestión de calidad ISO 9001, vigilancia epidemiológica, cooperación internacional y formulación de políticas públicas. Ha trabajado con la OPS, el Banco Mundial, el BID y USAID, con énfasis en resultados, transparencia, mejora continua y sostenibilidad de los servicios de salud.",
       "bioEn": "Public health physician with more than ten years of experience in leadership, planning, and health-system strengthening. As Honduras’s Deputy Minister for Integrated Health Service Networks, he leads health-system transformation processes. His experience includes monitoring and evaluation, ISO 9001 quality management, epidemiological surveillance, international cooperation, and public policy development. He has worked with PAHO, the World Bank, the Inter-American Development Bank, and USAID, with a focus on results, transparency, continuous improvement, and sustainable health services."
-    },
-    {
-      "id": "victor-elias-atallah-lajam",
-      "name": "Dr. Víctor Elías Atallah Lajam",
-      "role": "Ministro de Salud, República Dominicana",
-      "photo": "victor-atallah.png",
-      "bio": "Médico egresado del Instituto Tecnológico de Santo Domingo (INTEC), con especializaciones en Medicina Interna, Cardiología Nuclear y Cardiología Intervencionista en Estados Unidos. Cuenta con más de 25 años de experiencia clínica y gerencial como docente, investigador y directivo de instituciones de salud. Actualmente es Ministro de Salud Pública y Asistencia Social de la República Dominicana y Presidente de la Asamblea Mundial de la Salud 2026. Su gestión ha impulsado la cobertura sanitaria, la vigilancia epidemiológica y avances en dengue, malaria y cáncer infantil. También ha impulsado la ampliación de la cobertura de salud y el fortalecimiento de la vigilancia epidemiológica nacional.",
-      "bioEn": "Physician trained at the Santo Domingo Institute of Technology (INTEC), with specializations in Internal Medicine, Nuclear Cardiology, and Interventional Cardiology in the United States. He has more than 25 years of clinical and management experience as a physician, educator, researcher, and health-sector executive. He currently serves as Minister of Public Health and Social Assistance of the Dominican Republic and President of the 2026 World Health Assembly. His leadership has supported broader health coverage, stronger epidemiological surveillance, and progress against dengue, malaria, and childhood cancer."
     },
     {
       "id": "juan-carlos-esquivel-sanchez",
