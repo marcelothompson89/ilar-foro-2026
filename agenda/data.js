@@ -95,6 +95,7 @@ window.FORO_DATA = {
         "manuel-zambrano-chang",
         "carlos-gabriel-alvarenga",
         "angel-eduardo-midence-ochoa",
+        "carlos-enrique-santa-cruz-hernandez",
         "jose-renan"
       ]
     },
@@ -316,6 +317,14 @@ window.FORO_DATA = {
       "photo": "juan-carlos-esquivel.png",
       "bio": "Médico costarricense y Viceministro de Salud, con experiencia en dirección estratégica, gobernanza sanitaria y desarrollo del recurso humano en salud. Participa en la conducción estratégica del Sistema Nacional de Salud y en el fortalecimiento de la rectoría sanitaria. Previamente fue Director Ejecutivo del CENDEISSS de la Caja Costarricense de Seguro Social, donde lideró iniciativas de formación médica especializada, innovación, investigación y cooperación internacional. Posee una Maestría en Administración y Dirección de Servicios de Salud por la Universidad Pompeu Fabra y formación en alta dirección de instituciones de seguridad social.",
       "bioEn": "Costa Rican physician and Vice Minister of Health with experience in strategic leadership, health governance, and health workforce development. He contributes to the strategic direction of the National Health System and efforts to strengthen health stewardship. Previously, he served as Executive Director of CENDEISSS at the Costa Rican Social Security Fund, leading initiatives in specialist medical training, innovation, research, and international cooperation. He holds a master’s degree in Health Services Administration and Management from Pompeu Fabra University and advanced training in social security institution management."
+    },
+    {
+      "id": "carlos-enrique-santa-cruz-hernandez",
+      "name": "Carlos Enrique Santa Cruz Hernández",
+      "role": "Viceministro de Atención Primaria en Salud, Guatemala",
+      "photo": "carlos_santa_cruz_hernandez.png",
+      "bio": "Economista y magíster en Estadística Aplicada, con más de siete años de experiencia en salud pública y formación en epidemiología y atención primaria en salud. Actualmente se desempeña como Viceministro de Atención Primaria en Salud del Ministerio de Salud Pública y Asistencia Social. Cuenta con experiencia en Redes Integradas de Servicios de Salud, planificación estratégica y operativa, análisis de datos, cooperación internacional y mecanismos regionales de salud pública. Anteriormente, fue director de Planificación y Desarrollo Institucional y asesor en la implementación del Modelo de Redes Integradas de Servicios de Salud. Además, cuenta con experiencia en docencia universitaria.",
+      "bioEn": "Economist with a master’s degree in Applied Statistics, with more than seven years of experience in public health and training in epidemiology and primary health care. He currently serves as Vice Minister of Primary Health Care at the Ministry of Public Health and Social Assistance. His experience includes Integrated Health Service Networks, strategic and operational planning, data analysis, international cooperation, and regional public health mechanisms. He previously served as Director of Planning and Institutional Development and as an advisor on the implementation of the Integrated Health Service Networks Model. He also has experience in university teaching."
     }
   ]
 };
