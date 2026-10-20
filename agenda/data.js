@@ -46,8 +46,7 @@ window.FORO_DATA = {
       "title": "Autocuidado como mecanismo de resiliencia, sostenibilidad y protección de la salud",
       "speakers": [
         "viviane-boaventura",
-        "raquel-mura",
-        "rodrigo-saucedo"
+        "raquel-mura"
       ]
     },
     {
@@ -190,14 +189,6 @@ window.FORO_DATA = {
       "photo": "raquel-mura.png",
       "bio": "Líder global en ciencia regulatoria e innovación, con experiencia en salud del consumidor, suplementos alimenticios y productos farmacéuticos. Es fundadora y consultora principal de RGM Life Sciences Consulting y docente de Rutgers University, donde contribuye al desarrollo de capacidades estratégicas para innovación y acceso al mercado. Ha ocupado posiciones de liderazgo en Sanofi, Pfizer, Novartis, Reckitt Benckiser y Bristol-Myers, dirigiendo iniciativas globales de regulación, I+D y transformación tecnológica, incluida la aplicación de inteligencia artificial a la toma de decisiones. Su trayectoria abarca Estados Unidos, América Latina y Europa.",
       "bioEn": "Global regulatory science and innovation leader with experience across consumer healthcare, dietary supplements, and pharmaceuticals. She is Founder and Principal Consultant at RGM Life Sciences Consulting and a faculty member at Rutgers University, helping build strategic capabilities for innovation and market access. She has held leadership roles at Sanofi, Pfizer, Novartis, Reckitt Benckiser, and Bristol-Myers, directing global regulatory, R&D, and technology transformation initiatives, including the use of artificial intelligence in decision-making. Her career spans the United States, Latin America, and Europe."
-    },
-    {
-      "id": "rodrigo-saucedo",
-      "name": "Rodrigo Saucedo",
-      "role": "Head of Innovation, Data and Policy, Fundación Carlos Slim",
-      "photo": "rodrigo-saucedo.jpg",
-      "bio": "Economista por el CIDE, con estudios de posgrado en innovación y emprendimiento y en gestión de proyectos. Cuenta con más de 18 años de experiencia en Salud Digital y ha liderado el desarrollo tecnológico de más de 25 plataformas digitales y más de 10 modelos analíticos basados en big data e inteligencia artificial. Ha publicado más de 35 artículos académicos y capítulos de libro sobre economía de la salud, enfermedades crónicas, vacunación, salud materna y salud digital. Ha sido consultor nacional e internacional, impartido más de 100 conferencias y es profesor en la UNAM y la Universidad Panamericana.",
-      "bioEn": "Economist trained at CIDE, with postgraduate studies in innovation and entrepreneurship and in project management. He has more than 18 years of experience in Digital Health and has led the technological development of more than 25 digital platforms and over 10 analytical models using big data and artificial intelligence. He has published more than 35 academic articles and book chapters on health economics, chronic diseases, vaccination, maternal health, and digital health. He has consulted for national and international organizations, delivered more than 100 lectures, and teaches at UNAM and Universidad Panamericana."
     },
     {
       "id": "victor-hugo-borja-aburto",
