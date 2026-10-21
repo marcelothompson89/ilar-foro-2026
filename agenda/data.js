@@ -212,7 +212,8 @@ window.FORO_DATA = {
       "name": "Q.F. Laura Otálora",
       "role": "Comité Regulatorio, ILAR",
       "photo": "laura-otalora.png",
-      "bio": ""
+      "bio": "Coordinadora del Comité Regulatorio de la Asociación Latinoamericana para el Autocuidado Responsable (ILAR). Cuenta con más de 20 años de experiencia en la industria de la salud, liderando estrategias regionales de transformación y convergencia regulatoria, así como iniciativas orientadas al fortalecimiento del autocuidado responsable. Su trabajo se enfoca en impulsar la colaboración multisectorial y fortalecer ecosistemas de cooperación que favorezcan el intercambio de conocimiento y el desarrollo de iniciativas frente a desafíos regionales de salud pública. En este contexto, ha promovido iniciativas relacionadas con la resistencia a los antibióticos y la alfabetización en salud. Es química farmacéutica de la Universidad Nacional de Colombia y especialista en Administración de Empresas de la Universidad del Rosario.",
+      "bioEn": "Coordinator of the Regulatory Committee of the Latin American Association for Responsible Self-Care (ILAR). She has more than 20 years of experience in the health industry, leading regional regulatory transformation and convergence strategies, as well as initiatives aimed at strengthening responsible self-care. Her work focuses on promoting multisectoral collaboration and strengthening cooperation ecosystems that foster knowledge exchange and the development of initiatives addressing regional public health challenges. In this context, she has promoted initiatives related to antibiotic resistance and health literacy. She is a pharmaceutical chemist from the Universidad Nacional de Colombia and holds a specialization in Business Administration from the Universidad del Rosario."
     },
     {
       "id": "catterina-ferreccio",
